@@ -21,11 +21,11 @@ How To:
 4. chmod 755 *.sh
 5. chmod 755 *.py
 6. ./nuke.sh
-7. Start the ghetto ci/cd process in a second terminal session (it will just sit there):  ./ghetto_cicd.py
+7. Start the ghetto ci/cd process in a second terminal session (it will just sit there): ./ghetto_cicd.py
 8. Build and run your container:  ./wrapper.sh
 9. Modify the README.md (later you can try to modify the mytimeback.py app)
 10. Commit the changes by typing: ./commit.sh "commit message"
 11. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
 
 
-test
+test 3

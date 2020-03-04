@@ -4,8 +4,8 @@ Legend:
 vPC domain id                     : 10
 Peer status                       : peer adjacency formed ok
 vPC keep-alive status             : peer is alive
-Configuration consistency status  : failue
-Per-vlan consistency status       : Failue
+Configuration consistency status  : success
+Per-vlan consistency status       : success
 Type-2 consistency status         : success
 vPC role                          : secondary
 Number of vPCs configured         : 5
@@ -27,7 +27,7 @@ Id    Port          Status Consistency Reason                Active vlans
 --    ------------  ------ ----------- ------                ---------------
 101   Po101         up     success     success               100,102-104,10
                                                              6,110,112,209
-102   Po103         down   success     success               100,102-104,10
+102   Po103         up     success     success               100,102-104,10
                                                              6,112,210
 103   Po105         up     success     success               100,102-104,10
                                                              6,110,112,211
