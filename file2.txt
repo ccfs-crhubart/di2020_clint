@@ -1,0 +1,58 @@
+NY03-09-RTR-COR-PRD02# show vpc
+Legend:
+                (*) - local vPC is down, forwarding via vPC peer-link
+vPC domain id                     : 10
+Peer status                       : peer adjacency formed ok
+vPC keep-alive status             : peer is alive
+Configuration consistency status  : failue
+Per-vlan consistency status       : Failue
+Type-2 consistency status         : success
+vPC role                          : secondary
+Number of vPCs configured         : 5
+Peer Gateway                      : Enabled
+Dual-active excluded VLANs        : -
+Graceful Consistency Check        : Enabled
+Auto-recovery status              : Enabled, timer is off.(timeout = 240s)
+Delay-restore status              : Timer is off.(timeout = 30s)
+Delay-restore SVI status          : Timer is off.(timeout = 10s)
+Operational Layer3 Peer-router    : Disabled
+vPC Peer-link status
+---------------------------------------------------------------------
+id    Port   Status Active vlans
+--    ----   ------ -------------------------------------------------
+1     Po1    up     100-104,106,110,112,209-211
+vPC status
+----------------------------------------------------------------------------
+Id    Port          Status Consistency Reason                Active vlans
+--    ------------  ------ ----------- ------                ---------------
+101   Po101         up     success     success               100,102-104,10
+                                                             6,110,112,209
+102   Po103         down   success     success               100,102-104,10
+                                                             6,112,210
+103   Po105         up     success     success               100,102-104,10
+                                                             6,110,112,211
+147   Po147         up     success     success               101,106
+148   Po148         up     success     success               101,106
+NY03-09-RTR-COR-PRD02# show interface trunk
+--------------------------------------------------------------------------------
+Port          Native  Status        Port
+              Vlan                  Channel
+--------------------------------------------------------------------------------
+Eth1/1        999     trnk-bndl     Po101
+Eth1/2        999     trnk-bndl     Po101
+Eth1/3        999     trnk-bndl     Po103
+Eth1/4        999     trnk-bndl     Po103
+Eth1/5        999     trnk-bndl     Po105
+Eth1/6        999     trnk-bndl     Po105
+Eth1/47       999     trnk-bndl     Po147
+Eth1/48       999     trnk-bndl     Po148
+Eth1/53       999     trnk-bndl     Po1
+Eth1/54       999     trnk-bndl     Po1
+Po1           999     trunking      --
+Po101         999     trunking      --
+Po103         999     trunking      --
+Po105         999     trunking      --
+Po147         999     trunking      --
+Po148         999     trunking      --
+--------------------------------------------------------------------------------
+Port          Vlans Allowed on Trunk
