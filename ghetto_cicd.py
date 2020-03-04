@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
 # local
-container_name = 'di2020_wojke'
+container_name = 'di2020_clint'
 stop = 'docker stop ' + container_name
 rm = 'docker rm -f ' + container_name
 rmi = 'docker rmi -f ' + container_name

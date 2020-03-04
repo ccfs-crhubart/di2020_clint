@@ -7,3 +7,5 @@ docker rm -f $(docker ps -a -q)
 docker rmi -f $(docker images -q)
 # Delete image
 docker rmi -f $container_name
+# Cleanup
+docker system prune -f
