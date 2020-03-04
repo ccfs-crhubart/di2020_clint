@@ -25,7 +25,7 @@ How To:
 8. Build and run your container:  ./wrapper.sh
 9. Modify the README.md (later you can try to modify the mytimeback.py app)
 10. Commit the changes by typing: ./commit.sh "commit message"
-11. You should see the container rebuild and restart.
+11. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
 
 
 
