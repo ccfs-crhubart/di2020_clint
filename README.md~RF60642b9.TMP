@@ -28,4 +28,4 @@ How To:
 11. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
 
 
-test 6
+test 5
