@@ -1,7 +1,9 @@
 # Clint DI 2020 DevOps Project Help
 
 ## The Application
-The application is the beginning of solving the Seatgeek human robot problem.
+The application is the beginning of solving the Seatgeek human robot problem. 
+Future plans would include automatic SSH into devices and performing the check, as well as 
+Formating and emnailing it out.
 
 #### Files:
 - Application: mytimeback.py
@@ -24,10 +26,11 @@ How To:
 6. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
 
 
-- v5.21.1
-	-Small Changes to Alert Messages
+- v5.21.3
 	-Updates to Readme
 - v5.21.2
 	-Updates to Readme
-- v5.21.3
+- v5.21.1
+	-Small Changes to Alert Messages
 	-Updates to Readme
+

@@ -6,7 +6,7 @@ from termcolor import cprint
 def compare (a,b):
   if a != b:
     cprint ('ALERT: DIFFERENCE DETECTED', 'white', 'on_red')
-    cprint ('Detailed diff below', 'red')
+    cprint ('Details below', 'red')
     for line in difflib.context_diff(a, b):
         sys.stdout.write(line)
   elif a == b:
