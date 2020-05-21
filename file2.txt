@@ -4,7 +4,7 @@ Legend:
 vPC domain id                     : 10
 Peer status                       : peer adjacency formed ok
 vPC keep-alive status             : peer is alive
-Configuration consistency status  : success
+Configuration consistency status  : FAILURE
 Per-vlan consistency status       : success
 Type-2 consistency status         : success
 vPC role                          : secondary

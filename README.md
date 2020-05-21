@@ -25,7 +25,8 @@ How To:
 5. Commit the changes by typing: ./commit.sh "commit message"
 6. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
 
-
+- v5.21.5
+	
 - v5.21.3
 	-Updates to Readme
 - v5.21.2
