@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 import time, sys, os, subprocess, shlex
 from colorama import Fore, Back, Style
 from watchdog.observers import Observer

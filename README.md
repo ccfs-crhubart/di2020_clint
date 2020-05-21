@@ -16,15 +16,18 @@ The application is the beginning of solving the Seatgeek human robot problem.
 
 How To:
 
-4. chmod 755 *.sh
-5. chmod 755 *.py
-6. ./nuke.sh
-7. Start the ghetto ci/cd process in a second terminal session (it will just sit there): ./ghetto_cicd.py
-8. Build and run your container:  ./wrapper.sh
-9. Modify the README.md (later you can try to modify the mytimeback.py app)
-10. Commit the changes by typing: ./commit.sh "commit message"
-11. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
+1. chmod 755 *.sh
+2. chmod 755 *.py
+3. ./nuke.sh
+4. Start the ghetto ci/cd process in a second terminal session (it will just sit there): ./ghetto_cicd.py
+5. Build and run your container:  ./wrapper.sh
+6. Modify the README.md (later you can try to modify the mytimeback.py app)
+7. Commit the changes by typing: ./commit.sh "commit message"
+8. In the terminal where you started ghetto_cicd.py you should see the container rebuild and restart.
 
 
-v520c
+- v5.21.1
+	-Small Changes to Alert Messages
+	-Updates to Readme
+	
 

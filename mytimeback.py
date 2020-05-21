@@ -5,12 +5,12 @@ from termcolor import cprint
 
 def compare (a,b):
   if a != b:
-    cprint ('ALERT: INVESTIGATION REQUIRED', 'white', 'on_cyan')
-    cprint ('Detailed diff below', 'cyan')
+    cprint ('ALERT: DIFFERENCE DETECTED', 'white', 'on_red')
+    cprint ('Detailed diff below', 'red')
     for line in difflib.context_diff(a, b):
         sys.stdout.write(line)
   elif a == b:
-    cprint ('ALL IS GOOD', 'white', 'on_green')
+    cprint ('NO DIFFERNCE FOUND', 'white', 'on_green')
   else:
     cprint ('BAD DATASETS')
 
