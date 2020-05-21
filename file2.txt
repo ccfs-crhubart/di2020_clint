@@ -25,7 +25,7 @@ vPC status
 ----------------------------------------------------------------------------
 Id    Port          Status Consistency Reason                Active vlans
 --    ------------  ------ ----------- ------                ---------------
-101   Po101         down     success     success               100,102-104,10
+101   Po101         up     success     success               100,102-104,10
                                                              6,110,112,209
 102   Po103         up     success     success               100,102-104,10
                                                              6,112,210
